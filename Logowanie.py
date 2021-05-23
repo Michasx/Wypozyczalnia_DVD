@@ -40,7 +40,7 @@ class Logowanie:
 
     def g(self):
         if self.get_password.get() == password:
-            self.button_accept1['text'] = "Correct!"
+            self.button_accept1['text'] = "Poprawne!"
             self.stec.destroy()
             monitor4 = Admin()
             monitor4.mati = Tk()
@@ -48,4 +48,4 @@ class Logowanie:
             monitor4.i()
             monitor4.j()
         else:
-            self.button_accept1['text'] = "Incorrect!"
+            self.button_accept1['text'] = "Niepoprawne!"
