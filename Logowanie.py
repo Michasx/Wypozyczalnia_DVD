@@ -20,7 +20,7 @@ class Logowanie:
         self.text1.place(relx=0.230,rely=0)
         self.get_password = Entry(self.stec, bg="white")
         self.get_password.place(relx=0.230, rely=0.13)
-        self.button_accept1 = Button(self.stec, text="Accept", fg="black", padx=80, pady=5, command=self.g)
+        self.button_accept1 = Button(self.stec, text="Zaakceptuj", fg="black", padx=80, pady=5, command=self.g)
         self.button_accept1.place(relx=0, rely=0.25)
 
 #Tekst na stronie
