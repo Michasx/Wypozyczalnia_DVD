@@ -5,6 +5,7 @@ import tkinter.font as font
 
 class Admin:
 
+    #test
     #def __init__(self, val=Tk()):
         #self.val = val
 
